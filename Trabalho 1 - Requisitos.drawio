@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.1.6">
+  <diagram name="Página-1" id="GdpmCjKhO2CyuqFG96MO">
+    <mxGraphModel dx="1066" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="40" width="480" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-2" value="Administrador&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-3" value="UC_001- Manter movimentações financeira" style="ellipse;whiteSpace=wrap;html=1;rotation=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-2" target="Hy3CAe0-M6OoVfvvALLW-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-5" value="UC_001.1 - Manter receita" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-3" target="Hy3CAe0-M6OoVfvvALLW-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-7" value="UC_001.2 - Manter despesa" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-3" target="Hy3CAe0-M6OoVfvvALLW-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-10" value="UC_002 - Manter categorias" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-2" target="Hy3CAe0-M6OoVfvvALLW-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-12" value="UC_004&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- Consultar histórico financeiro&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-2" target="Hy3CAe0-M6OoVfvvALLW-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-14" value="UC_003 - Gerar histórico financeiro´" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-2" target="Hy3CAe0-M6OoVfvvALLW-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.037;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-12" target="Hy3CAe0-M6OoVfvvALLW-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-21" value="UC_007&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;- Fechar período financeiro&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="264" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-2" target="Hy3CAe0-M6OoVfvvALLW-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="370" as="sourcePoint" />
+            <mxPoint x="270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-23" value="UC_005 - Filtrar por período (dia/mês/ano)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="250" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-24" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-12" target="Hy3CAe0-M6OoVfvvALLW-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-25" value="UC_006 - Buscar por categoria ou descrição" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-26" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-12" target="Hy3CAe0-M6OoVfvvALLW-25" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hy3CAe0-M6OoVfvvALLW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Hy3CAe0-M6OoVfvvALLW-1" target="Hy3CAe0-M6OoVfvvALLW-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
