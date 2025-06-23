@@ -121,26 +121,23 @@ RNF06	O sistema deve realizar backup automático das informações financeiras.
 RNF07	O sistema deve seguir boas práticas de usabilidade e acessibilidade.
 RNF08	A arquitetura do sistema deve permitir escalabilidade para múltiplos usuários.
 
-📊 Matriz de Rastreabilidade dos Requisitos
-Código	Requisito	Objetivo(s) Relacionado(s)	RNF Relacionado(s)
-RF01	Cadastro de receitas, despesas, valores guardados e investimentos.	OBJ1, OBJ2	RNF01, RNF02, RNF03
-RF02	Criação, edição e exclusão de categorias personalizadas.	OBJ1, OBJ2	RNF01, RNF02
-RF03	Relatórios detalhados com filtros por data, categoria e tipo.	OBJ3, OBJ4	RNF01, RNF02
-RF04	Dashboard com visão geral da saúde financeira.	OBJ2, OBJ4	RNF01, RNF03
-RF05	Acompanhamento por períodos: diário, semanal, mensal, anual.	OBJ2, OBJ3	RNF01, RNF02
-RF06	Fechamento de ciclos financeiros.	OBJ2, OBJ3	RNF01, RNF05
-RF07	Gráficos e indicadores visuais.	OBJ4, OBJ5	RNF01, RNF07
-RF08	Consulta ao histórico financeiro detalhado.	OBJ3, OBJ5	RNF01, RNF02, RNF04
-RF09	Sistema web responsivo (desktop e mobile).	OBJ1, OBJ2	RNF03, RNF08
+---
 
-Legenda de Objetivos (OBJ):
+## 📊 MATRIZ DE RASTREABILIDADE HORIZONTAL ENTRE REQUISITOS FUNCIONAIS
 
-OBJ1: Substituir planilhas manuais por sistema automatizado.
+Legenda: "X" indica dependência ou relação entre requisitos
 
-OBJ2: Oferecer visão clara e organizada das finanças.
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+|        | RF01   | RF02   | RF03   | RF04   | RF05   | RF06   | RF07   | RF08   |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+| RF01   |   -    |   X    |        |   X    |   X    |        |        |        |
+| RF02   |   X    |   -    |   X    |        |        |        |        |        |
+| RF03   |        |   X    |   -    |   X    |   X    |        |        |        |
+| RF04   |   X    |        |   X    |   -    |        |        |   X    |        |
+| RF05   |   X    |        |   X    |        |   -    |   X    |        |        |
+| RF06   |        |        |        |        |   X    |   -    |   X    |        |
+| RF07   |        |        |        |   X    |        |   X    |   -    |   X    |
+| RF08   |        |        |        |        |        |        |   X    |   -    |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+s  
 
-OBJ3: Acompanhar resultados por períodos.
-
-OBJ4: Facilitar análises com relatórios e gráficos.
-
-OBJ5: Auxiliar na tomada de decisões.
